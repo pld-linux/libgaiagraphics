@@ -1,4 +1,3 @@
-# $Revision: 1.21 $, $Date: 2011/07/16 18:25:43 $
 Summary:	Gaia Common Graphics support
 Summary(pl.UTF-8):	Obsługa grafiki wspólna dla projektu Gaia
 Name:		libgaiagraphics
