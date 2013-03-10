@@ -1,18 +1,19 @@
 Summary:	Gaia Common Graphics support
 Summary(pl.UTF-8):	Obsługa grafiki wspólna dla projektu Gaia
 Name:		libgaiagraphics
-Version:	0.4b
-Release:	3
+Version:	0.5
+Release:	1
 License:	LGPL v3+
 Group:		Libraries
 Source0:	http://www.gaia-gis.it/gaia-sins/gaiagraphics-sources/%{name}-%{version}.tar.gz
-# Source0-md5:	6e7c703faad9de3beea296aa9508eec2
+# Source0-md5:	2fdc2f155718e9f20dcdf10e474fc225
 URL:		https://www.gaia-gis.it/fossil/libgaiagraphics
 BuildRequires:	cairo-devel
 BuildRequires:	libgeotiff-devel >= 1.2.5
 BuildRequires:	libjpeg-devel
 BuildRequires:	libpng-devel
 BuildRequires:	libtiff-devel
+BuildRequires:	libxml2-devel >= 2
 BuildRequires:	pkgconfig
 BuildRequires:	proj-devel >= 4
 BuildRequires:	zlib-devel
@@ -37,6 +38,7 @@ Requires:	libgeotiff-devel >= 1.2.5
 Requires:	libjpeg-devel
 Requires:	libpng-devel
 Requires:	libtiff-devel
+Requires:	libxml2-devel >= 2
 Requires:	proj-devel >= 4
 Requires:	zlib-devel
 
