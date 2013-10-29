@@ -2,7 +2,7 @@ Summary:	Gaia Common Graphics support
 Summary(pl.UTF-8):	Obsługa grafiki wspólna dla projektu Gaia
 Name:		libgaiagraphics
 Version:	0.5
-Release:	1
+Release:	2
 License:	LGPL v3+
 Group:		Libraries
 Source0:	http://www.gaia-gis.it/gaia-sins/gaiagraphics-sources/%{name}-%{version}.tar.gz
